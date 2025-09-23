@@ -101,12 +101,10 @@ class Cart {
         System.out.println("Added " + quantity + " units of Product ID " + productId);
     }
 
-    // Static method
     public static int getCartCount() {
         return totalCartsCreated;
     }
 
-    // Non-static method
     public void printCartItems() {
         System.out.println("Items in Cart:");
         for (Product p : products) {
@@ -179,3 +177,4 @@ public class EcoCartShoppingSystem {
         EcoRules.printRules();
     }
 }
+
